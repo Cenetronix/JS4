@@ -17,8 +17,20 @@
 // Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18")
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 
+//
+var JohnFollowers = ["Bill", "Kate", "Jill", "Tom", "Mary", "Mark"];
+var JaneFollowers = ["Will", "Kate", "Jill", "Kyle", "Toby", "Nicolle"];
+var followers =[];
 
-
+for (var i = 0; i < JohnFollowers.length; i++) {
+    for (var j = 0; j < JaneFollowers.length; j++) {
+        if (JohnFollowers[i]===JaneFollowers[j]) {
+            followers.push(JohnFollowers[i])
+        }
+    }
+    
+}
+console.log(followers)
 
 
 
