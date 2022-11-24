@@ -30,7 +30,7 @@ for (var i = 0; i < JohnFollowers.length; i++) {
     }
     
 }
-console.log(followers)
+console.log(followers);
 
 
 
